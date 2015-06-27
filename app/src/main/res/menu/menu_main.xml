@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <group android:checkableBehavior="single">    //what group does: puts a bunch of items in a group and only allows user to use one item at a time
+        <item
+            android:id="@+id/menu_red"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/red_string" />
+        <item
+            android:id="@+id/menu_green"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="@string/green_string" />
+        <item
+            android:id="@+id/menu_yellow"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="@string/yellow_string" />
+
+    </group>
+
+</menu>
